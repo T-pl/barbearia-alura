@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+/* ---------------------------- */
+/* INICIO DA BARRA DE NAVEGAÇÃO */
+/* ---------------------------- */
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+nav a:hover{
+
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+    
+} 
+/* ---------------------------- */
+/* INICIO DO CONTEÚDO PRINCIPAL */
+/* ---------------------------- */
+
+.principal{
+    padding: 3em 0;
+    
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    
+}
+
+
+
+.principal p{
+    margin: 0 0 1em;
+
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/* ---------------------------- */
+/* MAPA DE LOCALIZAÇÃO */
+/* ---------------------------- */
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.conteudomapa{
+    width: 90%;
+
+    margin: 0 auto;
+
+}
+
+.mapa p{
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+/* ---------------------------- */
+/* INICIO DOS BENEFÍCIOS */
+/* ---------------------------- */
+
+.beneficios{
+    background: #888888;
+    padding: 3em 0;
+
+}
+
+
+.conteudo{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+
+} 
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.itens:before{
+    content: "\2730";
+}
+
+/* ---------------------------- */
+/* ---------MISSÃO------------- */
+/* ---------------------------- */
+
+#missao{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ---------------------------- */
+/* IMAGEM DOS BENEFÍCIOS */
+/* ---------------------------- */
+
+.imagem-beneficios{
+    width: 60%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
+}
+
+
+.video{
+    margin: 2em auto;
+    width: 560px;
+}
+
+/* ---------------------- */
+/* RESPONSIVIDADE(EM IMPLEMENTAÇÃO) */
+/* ---------------------- */
+
+/* @media screen and (max-width: 480px) {
+	.menu, .principal, .conteudomapa, .video {
+		width: auto;
+	}
+	.logo {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+} */
+
+/* ---------------------- */
+/* INICIO DO FOOTER */
+/* ---------------------- */
+
+footer{
+    text-align: center;
+    background: url("/imagenservicos/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+ 

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A Barbearia Alura é um pequeno conjunto de web pages de um comércio fictício criado para o curso de dev. web da Alura Cursos Online de Tecnologia.">    <title>Entre em Contato</title>
+        
+        <!-- Estilo CSS -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/contato.css">
+        <!-- Favicon do Navegador -->
+        <link rel="shortcut icon" href="./imagenservicos/favi.ico" type="image/x-icon">
+        <!-- Fonte Google -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <title>Página de Contato</title>
+
+    </head>
+
+
+    <body>
+
+        <!-- Header  -->
+        <header class="cabecalho">
+
+            <div class="menu"> 
+                <h1 class="logo"><img src="./imagenservicos/logo.png" alt="Logo Barbearia Alura"></h1>
+                
+                <nav>
+                    
+                    <ul class="lista">
+                        <li class="itens-nav"> 
+                            <a href="index.html">Home</a>                     
+                        </li>
+                        <li class="itens-nav"> 
+                            <a href="servicos.html">Serviços</a>                    
+                        </li>
+                        <li class="itens-nav"> 
+                            <a href="contato.html">Contato</a> 
+                        </li>
+        
+                    </ul>
+                    
+                </nav>
+            </div>
+        </header>
+        <!-- Fim do Header -->
+
+        <!-- Inicio do conteúdo principal -->
+
+        <main>
+
+            <!-- Formulário de dados do usuário/cliente -->
+
+            <form action="#">
+                <label for="nomecompleto">Nome Completo</label>
+                <input class="inputpadrao" type="text" id="nomecompleto" required>
+
+                <label for="email">email</label>
+                <input class="inputpadrao" type="email" id="email" required placeholder="email@dominio.com">
+
+                <label for="cel">Celular</label>
+                <input class="inputpadrao" type="tel" id="cel" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea  id="mensagem" cols="72" rows="10"></textarea>
+
+                <!-- Forma de contato com o usuário/cliente -->
+
+                <fieldset>
+                    <legend>Escolha a melhor forma de contato para te atendermos:</legend>
+
+                    <label for="radio-email"><input name="contato" type="radio" value="email" id="radio-email">email</label>
+                    
+
+                    <label for="radio-tel"><input name="contato" type="radio" value="tel" id="radio-tel">Telefone Fixo</label>
+                    
+
+                    <label for="radio-whats"><input name="contato" type="radio" value="cel" id="radio-whats" checked>Whatsapp</label>
+                    
+                </fieldset>
+
+                <!-- Opções de escolha do usuário/cliente -->
+
+                <fieldset>
+                    <legend>Qual o melhor horário para você?</legend>
+                    <select class="horario">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+
+                <label> Quer receber nossas novidades e promoções via whats? <input class="checkbox" type="checkbox"> </label>
+                    
+
+                <input class="enviar"  type="submit" value="Enviar formulário">
+                
+                
+            </form>
+
+            
+            <!-- Tabela de Horário dos clientes -->
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th> 
+                    </tr>
+                </thead> 
+
+                <tbody>
+                    <tr> 
+                        <td>Segunda</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr> 
+                        <td>Quarta</td>
+                        <td>8h às 20h</td> 
+                    </tr>
+                    <tr> 
+                        <td>Sexta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr> 
+                        <td>Sábado</td>
+                        <td>8h às 18h</td>
+                    </tr>
+
+                </tbody>
+                
+            
+            </table>
+
+        </main>
+        <!-- Fim do conteúdo principal -->
+
+
+        <!-- Inicio do Footer  -->
+        <footer>
+            <img src="./imagenservicos/logo-branco.png" alt="Logo da Barbearia Alura">
+
+            <p class="copyright">&copy; Copyright Barbearia Alura | Tiago Ferreira | 2021</p>
+        </footer>
+        <!-- Fim do Footer -->
+    </body>
+
+
+</html>

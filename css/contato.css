@@ -1,0 +1,176 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+/* ---------------------------- */
+/* INICIO DA BARRA DE NAVEGAÇÃO */
+/* ---------------------------- */
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+nav a:hover{
+
+    color: #f30b0b;
+    text-decoration: underline;
+}
+
+/* ---------------------- */
+/* INICIO DO CONTEÚDO PRINCIPAL */
+/* ---------------------- */
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* ---------------------- */
+/* INICIO DO FORMULÁRIO */
+/* ---------------------- */
+
+form{
+    margin: 40px 0;
+}
+
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------- */
+/* HORÁRIO */
+/* ---------------------- */
+
+.horario{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.inputpadrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+/* ---------------------- */
+/* BOTÃO DE ENVIAR */
+/* ---------------------- */
+
+.enviar{
+     width: 55%;
+     padding: 15px 0;
+     border-radius: 5px;
+     background: orange;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     transition: 0.5s all;
+     cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.01);
+    
+}
+
+
+/* ---------------------- */
+/* TABELA DE HORÁRIO */
+/* ---------------------- */
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/* ---------------------- */
+/* RESPONSIVIDADE(EM IMPLEMENTAÇÃO) */
+/* ---------------------- */
+
+
+/* @media screen and (max-width: 480px) {
+	.menu, main {
+		width: auto;
+	}
+	.logo {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+} */
+
+
+
+
+/* ---------------------- */
+/* INICIO DO FOOTER */
+/* ---------------------- */
+
+footer{
+    text-align: center;
+    background: url("/imagenservicos/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
