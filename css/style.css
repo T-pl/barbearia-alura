@@ -203,7 +203,7 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url("/imagenservicos/bg.jpg");
+    background: url("../imagenservicos/bg.jpg");
     padding: 40px 0;
 }
 
