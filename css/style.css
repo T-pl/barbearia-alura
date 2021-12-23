@@ -178,24 +178,6 @@ nav a:hover{
     width: 560px;
 }
 
-/* ---------------------- */
-/* RESPONSIVIDADE(EM IMPLEMENTAÇÃO) */
-/* ---------------------- */
-
-/* @media screen and (max-width: 480px) {
-	.menu, .principal, .conteudomapa, .video {
-		width: auto;
-	}
-	.logo {
-		text-align: center;
-	}
-	nav {
-		position: static;
-	}
-	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
-	}
-} */
 
 /* ---------------------- */
 /* INICIO DO FOOTER */
@@ -208,8 +190,47 @@ footer{
 }
 
 .copyright{
-    color: #FFFFFF;
+    color: #fff;
     font-size: 13px;
     margin-top: 20px;
 }
  
+
+/* ---------------------- */
+/* RESPONSIVIDADE(EM IMPLEMENTAÇÃO) */
+/* ---------------------- */
+
+@media (max-width: 480px) {
+	.menu, .principal, .conteudomapa, .imagem-beneficios {
+		width: auto;
+	}
+    .menu{
+        text-align: center;
+    }
+    .intro{
+        text-align: justify;
+        line-height: 1.5em;
+        margin-left: 2px;
+    }
+    #missao{
+        text-align: center;
+        line-height: 1.2em;
+    }
+	.logo {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+    .lista-beneficios{
+        width: 100%;
+    }
+    .imagem-beneficios{
+        text-align: center;
+        width: 350px;
+    }
+    .video{
+        margin-left: 0;
+        width: 350px;
+    }
+}
