@@ -210,7 +210,8 @@ footer{
     .intro{
         text-align: justify;
         line-height: 1.5em;
-        margin-left: 2px;
+        margin-right: 5px !important;
+        margin-left: 5px !important;
     }
     #missao{
         text-align: center;
